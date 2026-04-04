@@ -1,0 +1,10 @@
+# Converter segundos para horas, minutos e segundos
+
+segundos = int(input("Digite o tempo em segundos: "))
+
+horas = segundos // 3600
+resto = segundos % 3600
+minutos = resto // 60
+segundos_restantes = resto % 60
+
+print(f"{horas}h {minutos}min {segundos_restantes}s")
